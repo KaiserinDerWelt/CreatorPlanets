@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace CreatorPlanets
 {
     class Properties
     {
        
-        public string name { get; set; }
-        public string rotation_period { get; set; }
-        public string orbital_period { get; set; }
-        public string diameter { get; set; }
+        public string NAME { get; set; }
+        public string ROTATIONPERIOD { get; set; }
+        public string ORBITALPERIOD { get; set; }
+        public string DIAMETERVALUE { get; set; }
         public string climate { get; set; }
         public string gravity { get; set; }
         public string terrain { get; set; }

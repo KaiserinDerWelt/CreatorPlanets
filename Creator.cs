@@ -7,7 +7,7 @@ namespace CreatorPlanets
     {
         
 
-        public Creator(string name, string rotation_period, string orbital_period, string diameter, string climate, string gravity, string terrain, string surface_water, string population, string url) : base(name, rotation_period, orbital_period, diameter, climate, gravity, terrain, surface_water, population, url) { }
+        public Creator(string Name, string RotationPeriodC, string orbital_period, string DiameterC, string ClimateC, string GravityC, string TerrenoC, string WaterSurfaceC, string PopulationC, string URLc) : base(Name, RotationPeriodC, orbital_period, DiameterC, ClimateC, GravityC, TerrenoC,WaterSurfaceC, PopulationC, URLc) { }
 
 
 
@@ -27,7 +27,7 @@ namespace CreatorPlanets
                 throw new NotImplementedException();
                 Console.WriteLine(ex);
             }
-            return base.name;
+            return base.Name;
         }
         public override string SelectPlanet()
         {

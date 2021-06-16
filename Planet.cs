@@ -7,31 +7,31 @@ namespace CreatorPlanets
     abstract class Planet
     {
   
-        protected string name;
-        protected string rotation_period;
-        protected string orbital_period;
-        protected string diameter;
-        protected string climate;
-        protected string gravity;
-        protected string terrain;
-        protected string surface_water;
-        protected string population;
-        protected string url;
+        protected string Name;
+        protected string RotationPeriodC;
+        protected string orbitalPeriodC;
+        protected string DiameterC;
+        protected string ClimateC;
+        protected string GravityC;
+        protected string TerrenoC;
+        protected string WaterSurfaceC;
+        protected string PopulationC;
+        protected string URLc;
 
       
-        public Planet(string nombrePlaneta, string periodoRotacion, string PeriodoOrbital, string diametro, string clima, string gravedad,
-                       string terreno, string superficieAgua, string poblacion, string link)
+        public Planet(string PlanetName, string RotationPeriod, string OrbitalPeriod, string Diameter, string Wheater, string Gravity,
+                       string Terreno, string WaterSurface, string Population, string link)
         {
-            name = nombrePlaneta;
-            rotation_period = periodoRotacion;
-            orbital_period = PeriodoOrbital;
-            diameter = diametro;
-            climate = clima;
-            gravity = gravedad;
-            terrain = terreno;
-            surface_water = superficieAgua;
-            population = poblacion;
-            url = link;
+            Name = PlanetName;
+            RotationPeriodC = RotationPeriod;
+            orbitalPeriodC = OrbitalPeriod;
+            DiameterC = Diameter;
+            ClimateC = Wheater;
+            GravityC = Gravity;
+            TerrenoC = Terreno;
+            WaterSurfaceC = WaterSurface;
+            PopulationC = Population;
+            URLc = link;
         }
 
   
@@ -39,11 +39,11 @@ namespace CreatorPlanets
         {
             get
             {
-                return name;
+                return Name;
             }
             set
             {
-                name = value;
+                Name = value;
             }
         }
 
@@ -51,11 +51,11 @@ namespace CreatorPlanets
         {
             get
             {
-                return rotation_period;
+                return RotationPeriodC;
             }
             set
             {
-                rotation_period = value;
+                RotationPeriodC = value;
             }
         }
      
@@ -63,11 +63,11 @@ namespace CreatorPlanets
         {
             get
             {
-                return orbital_period;
+                return orbitalPeriodC;
             }
             set
             {
-                orbital_period = value;
+                orbitalPeriodC = value;
             }
         }
       
@@ -76,11 +76,11 @@ namespace CreatorPlanets
         {
             get
             {
-                return diameter;
+                return DiameterC;
             }
             set
             {
-                diameter = value;
+                DiameterC = value;
             }
         }
   
@@ -88,11 +88,11 @@ namespace CreatorPlanets
         {
             get
             {
-                return climate;
+                return ClimateC;
             }
             set
             {
-                climate = value;
+                ClimateC = value;
             }
         }
 
@@ -101,11 +101,11 @@ namespace CreatorPlanets
         {
             get
             {
-                return gravity;
+                return GravityC;
             }
             set
             {
-                gravity = value;
+                GravityC = value;
             }
         }
        
@@ -113,11 +113,11 @@ namespace CreatorPlanets
         {
             get
             {
-                return terrain;
+                return TerrenoC;
             }
             set
             {
-                terrain = value;
+                TerrenoC = value;
             }
         }
         //Agua
@@ -125,11 +125,11 @@ namespace CreatorPlanets
         {
             get
             {
-                return surface_water;
+                return WaterSurfaceC;
             }
             set
             {
-                surface_water = value;
+               WaterSurfaceC = value;
             }
         }
     
@@ -137,11 +137,11 @@ namespace CreatorPlanets
         {
             get
             {
-                return population;
+                return PopulationC;
             }
             set
             {
-                population = value;
+                PopulationC = value;
             }
         }
 
@@ -150,11 +150,11 @@ namespace CreatorPlanets
         {
             get
             {
-                return url;
+                return URLc;
             }
             set
             {
-                url = value;
+                URLc = value;
             }
         }
 
