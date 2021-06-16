@@ -4,14 +4,14 @@
 namespace CreatorPlanets
 {
     class Properties
-    {
+    {  //Propiedades definidas para la lista
        
         public string NAME { get; set; }
         public string ROTATIONPERIOD { get; set; }
         public string ORBITALPERIOD { get; set; }
         public string DIAMETERVALUE { get; set; }
-        public string climate { get; set; }
-        public string gravity { get; set; }
+        public string WETTER { get; set; }
+        public string GRAVITY { get; set; }
         public string terrain { get; set; }
         public string surface_water { get; set; }
         public string population { get; set; }

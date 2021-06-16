@@ -26,15 +26,15 @@ namespace CreatorPlanets
             List<Properties> planetsListing = new List<Properties>();
             List<Properties> listPlanetsNew = new List<Properties>();
             //Lista con propiedades
-            planetsListing.Add(new Properties { NAME = "Tatooine", ROTATIONPERIOD = "23", ORBITALPERIOD = "304", DIAMETERVALUE = "10465", climate = "arid", gravity = "1 standard", terrain = "desert", surface_water = "1", population = "200000", residents = 10, films = 5, url = "http://swapi.dev/api/planets/1/", created = TodayisToday, edited = now, id = 1 });
-            planetsListing.Add(new Properties { NAME = "Alderaan", ROTATIONPERIOD = "24", ORBITALPERIOD = "364", DIAMETERVALUE = "12500", climate = "temperate", gravity = "1 standard", terrain = "grasslands, mountains", surface_water = "40", population = "2000000000", residents = 3, films = 2, url = "http://swapi.dev/api/planets/2/", created = TodayisToday, edited = now, id = 2 });
-            planetsListing.Add(new Properties { NAME = "Yavin IV", ROTATIONPERIOD = "24", ORBITALPERIOD = "4818", DIAMETERVALUE = "10200", climate = "temperate", gravity = "1 standard", terrain = "jungle, rainforests", surface_water = "8", population = "1000", residents = 0, films = 1, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 3 });
-            planetsListing.Add(new Properties { NAME = "Hoth", ROTATIONPERIOD = "23", ORBITALPERIOD = "341", DIAMETERVALUE = "7200", climate = "frozen", gravity = "1.1 standard", terrain = "tundra, ice caves, mountain ranges", surface_water = "100", population = "unknown", residents = 0, films = 1, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 4 });
-            planetsListing.Add(new Properties { NAME = "Dagobah", ROTATIONPERIOD = "23", ORBITALPERIOD = "549", DIAMETERVALUE = "8900", climate = "murky", gravity = "N/A", terrain = "swamp, jungles", surface_water = "8", population = "unknown", residents = 0, films = 3, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 5 });
-            planetsListing.Add(new Properties { NAME = "Bespin", ROTATIONPERIOD = "12", ORBITALPERIOD = "5110", DIAMETERVALUE = "118000", climate = "temperate", gravity = "1.5 (surface), 1 standard (Cloud City)", terrain = "gas giant", surface_water = "0", population = "6000000", residents = 1, films = 1, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 6 });
-            planetsListing.Add(new Properties { NAME = "Endor", ROTATIONPERIOD = "18", ORBITALPERIOD = "402", DIAMETERVALUE = "4900", climate = "temperate", gravity = "0.85 standard", terrain = "forests, mountains, lakes", surface_water = "8", population = "30000000", residents = 1, films = 1, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 7 });
-            planetsListing.Add(new Properties { NAME = "Naboo", ROTATIONPERIOD = "26", ORBITALPERIOD = "312", DIAMETERVALUE = "12120", climate = "temperate", gravity = "1 standard", terrain = "grassy hills, swamps, forests, mountains", surface_water = "12", population = "4500000000", residents = 11, films = 4, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 8 });
-            planetsListing.Add(new Properties { NAME = "Coruscant", ROTATIONPERIOD = "24", ORBITALPERIOD = "368", DIAMETERVALUE = "12240", climate = "temperate", gravity = "1 standard", terrain = "cityscape, mountains", surface_water = "unknown", population = "1000000000000", residents = 3, films = 4, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 9 });
+            planetsListing.Add(new Properties { NAME = "Tatooine", ROTATIONPERIOD = "23", ORBITALPERIOD = "304", DIAMETERVALUE = "10465", WETTER = "arid", GRAVITY = "1 standard", terrain = "desert", surface_water = "1", population = "200000", residents = 10, films = 5, url = "http://swapi.dev/api/planets/1/", created = TodayisToday, edited = now, id = 1 });
+            planetsListing.Add(new Properties { NAME = "Alderaan", ROTATIONPERIOD = "24", ORBITALPERIOD = "364", DIAMETERVALUE = "12500", WETTER = "temperate", GRAVITY = "1 standard", terrain = "grasslands, mountains", surface_water = "40", population = "2000000000", residents = 3, films = 2, url = "http://swapi.dev/api/planets/2/", created = TodayisToday, edited = now, id = 2 });
+            planetsListing.Add(new Properties { NAME = "Yavin IV", ROTATIONPERIOD = "24", ORBITALPERIOD = "4818", DIAMETERVALUE = "10200", WETTER = "temperate", GRAVITY = "1 standard", terrain = "jungle, rainforests", surface_water = "8", population = "1000", residents = 0, films = 1, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 3 });
+            planetsListing.Add(new Properties { NAME = "Hoth", ROTATIONPERIOD = "23", ORBITALPERIOD = "341", DIAMETERVALUE = "7200", WETTER = "frozen", GRAVITY = "1.1 standard", terrain = "tundra, ice caves, mountain ranges", surface_water = "100", population = "unknown", residents = 0, films = 1, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 4 });
+            planetsListing.Add(new Properties { NAME = "Dagobah", ROTATIONPERIOD = "23", ORBITALPERIOD = "549", DIAMETERVALUE = "8900", WETTER = "murky", GRAVITY = "N/A", terrain = "swamp, jungles", surface_water = "8", population = "unknown", residents = 0, films = 3, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 5 });
+            planetsListing.Add(new Properties { NAME = "Bespin", ROTATIONPERIOD = "12", ORBITALPERIOD = "5110", DIAMETERVALUE = "118000", WETTER = "temperate", GRAVITY = "1.5 (surface), 1 standard (Cloud City)", terrain = "gas giant", surface_water = "0", population = "6000000", residents = 1, films = 1, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 6 });
+            planetsListing.Add(new Properties { NAME = "Endor", ROTATIONPERIOD = "18", ORBITALPERIOD = "402", DIAMETERVALUE = "4900", WETTER = "temperate", GRAVITY = "0.85 standard", terrain = "forests, mountains, lakes", surface_water = "8", population = "30000000", residents = 1, films = 1, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 7 });
+            planetsListing.Add(new Properties { NAME = "Naboo", ROTATIONPERIOD = "26", ORBITALPERIOD = "312", DIAMETERVALUE = "12120", WETTER = "temperate", GRAVITY = "1 standard", terrain = "grassy hills, swamps, forests, mountains", surface_water = "12", population = "4500000000", residents = 11, films = 4, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 8 });
+            planetsListing.Add(new Properties { NAME = "Coruscant", ROTATIONPERIOD = "24", ORBITALPERIOD = "368", DIAMETERVALUE = "12240", WETTER = "temperate", GRAVITY = "1 standard", terrain = "cityscape, mountains", surface_water = "unknown", population = "1000000000000", residents = 3, films = 4, url = "http://swapi.dev/api/planets/3/", created = TodayisToday, edited = now, id = 9 });
 
             Console.WriteLine("<-----------------------------Universe Creator V.1.0-------------------------------------->");
             Console.WriteLine("<------------------------------STAR WARS Corporation-------------------------------------->");
@@ -75,7 +75,7 @@ namespace CreatorPlanets
                     foreach (Properties p in planetsListing)
                     {
                         Console.Write(p.id + ".- " + p.NAME + " Periodo de rotación: " + p.ROTATIONPERIOD + " Periodo orbital: " + p.ORBITALPERIOD);
-                        Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.climate + " Gravedad: " + p.gravity + " Terreno: " + p.terrain);
+                        Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.WETTER + " Gravedad: " + p.GRAVITY + " Terreno: " + p.terrain);
                         Console.Write(" Superficie del agua: " + p.surface_water + " Población: " + p.population + " Residentes: " + p.residents + " Films:" + p.films);
                         Console.Write(" Url: " + p.url + " Creado: " + p.created + " Editado: " + p.edited);
                         Console.WriteLine("\n");
@@ -164,13 +164,13 @@ namespace CreatorPlanets
                             Console.WriteLine("Nuevo clima: ");
                             var climateInput = Console.ReadLine();
                             var found = planetsListing.FirstOrDefault(p => p.id == planetEdit);
-                            if (found != null) { found.climate = climateInput; found.edited = now; }
+                            if (found != null) { found.WETTER = climateInput; found.edited = now; }
                         }
                         else
                         {
                             Console.WriteLine("Se mantendra el mismo clima.");
                         }
-                        Console.WriteLine(editQMark + "la" + gravity + "?");
+                        Console.WriteLine(editQMark + "la" + "?");
                         Console.WriteLine(editConfirmation);
                         var gravityOne = Console.ReadLine();
                         int gravityOneUpdated = int.Parse(gravityOne);
@@ -179,7 +179,7 @@ namespace CreatorPlanets
                             Console.WriteLine("Nueva gravedad: ");
                             var gravityInput = Console.ReadLine();
                             var found = planetsListing.FirstOrDefault(p => p.id == planetEdit);
-                            if (found != null) { found.gravity = gravityInput; found.edited = now; }
+                            if (found != null) { found.GRAVITY = gravityInput; found.edited = now; }
                         }
                         else
                         {
@@ -282,7 +282,7 @@ namespace CreatorPlanets
                         foreach (Properties p in planetsListing)
                         {
                             Console.Write(p.id + ".- " + p.NAME + " Periodo de rotación: " + p.ROTATIONPERIOD + " Periodo orbital: " + p.ORBITALPERIOD);
-                            Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.climate + " Gravedad: " + p.gravity + " Terreno: " + p.terrain);
+                            Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.WETTER + " Gravedad: " + p.GRAVITY + " Terreno: " + p.terrain);
                             Console.Write(" Superficie del agua: " + p.surface_water + " Población: " + p.population + " Residentes: " + p.residents + " Films:" + p.films);
                             Console.Write(" Url: " + p.url + " Creado: " + p.created + " Editado: " + p.edited);
                             Console.WriteLine("\n");
@@ -304,7 +304,7 @@ namespace CreatorPlanets
                     foreach (Properties p in planetsListing)
                     {
                         Console.Write(p.id + ".- " + p.NAME + " Periodo de rotación: " + p.ROTATIONPERIOD + " Periodo orbital: " + p.ORBITALPERIOD);
-                        Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.climate + " Gravedad: " + p.gravity + " Terreno: " + p.terrain);
+                        Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.WETTER + " Gravedad: " + p.GRAVITY + " Terreno: " + p.terrain);
                         Console.Write(" Superficie del agua: " + p.surface_water + " Población: " + p.population + " Residentes: " + p.residents + " Films:" + p.films);
                         Console.Write(" Url: " + p.url + " Creado: " + p.created + " Editado: " + p.edited);
                         Console.WriteLine("\n");
@@ -344,8 +344,8 @@ namespace CreatorPlanets
                         ROTATIONPERIOD = rotationNewPlanet,
                         ORBITALPERIOD = orbitalNewPlanet,
                         DIAMETERVALUE = dimaeterNewPlanet,
-                        climate = climateNewPlanet,
-                        gravity = gravityNewPlanet,
+                        WETTER = climateNewPlanet,
+                        GRAVITY = gravityNewPlanet,
                         terrain = terrainNewPlanet,
                         surface_water = surfaceNewPlanet,
                         population = populationNewPlanet,
@@ -359,7 +359,7 @@ namespace CreatorPlanets
                     foreach (Properties p in planetsListing)
                     {
                         Console.Write(p.id + ".- " + p.NAME + " Periodo de rotación: " + p.ROTATIONPERIOD + " Periodo orbital: " + p.ORBITALPERIOD);
-                        Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.climate + " Gravedad: " + p.gravity + " Terreno: " + p.terrain);
+                        Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.WETTER + " Gravedad: " + p.GRAVITY + " Terreno: " + p.terrain);
                         Console.Write(" Superficie del agua: " + p.surface_water + " Población: " + p.population + " Residentes: " + p.residents + " Films:" + p.films);
                         Console.Write(" Url: " + p.url + " Creado: " + p.created + " Editado: " + p.edited);
                         Console.WriteLine("\n");
@@ -371,7 +371,7 @@ namespace CreatorPlanets
                     foreach (Properties p in planetsListing)
                     {
                         Console.Write(p.id + ".- " + p.NAME + " Periodo de rotación: " + p.ROTATIONPERIOD + " Periodo orbital: " + p.ORBITALPERIOD);
-                        Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.climate + " Gravedad: " + p.gravity + " Terreno: " + p.terrain);
+                        Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.WETTER + " Gravedad: " + p.GRAVITY + " Terreno: " + p.terrain);
                         Console.Write(" Superficie del agua: " + p.surface_water + " Población: " + p.population + " Residentes: " + p.residents + " Films:" + p.films);
                         Console.Write(" Url: " + p.url + " Creado: " + p.created + " Editado: " + p.edited);
                         Console.WriteLine("\n");
@@ -386,8 +386,8 @@ namespace CreatorPlanets
                     var rotacionTransferencia = foundPlanetToTransfer.ROTATIONPERIOD;
                     var orbitaTransferencia = foundPlanetToTransfer.ORBITALPERIOD;
                     var diametroTransferencia = foundPlanetToTransfer.DIAMETERVALUE;
-                    var climaTransferencia = foundPlanetToTransfer.climate;
-                    var gravedadTransferencia = foundPlanetToTransfer.gravity;
+                    var climaTransferencia = foundPlanetToTransfer.WETTER;
+                    var gravedadTransferencia = foundPlanetToTransfer.GRAVITY;
                     var terrenoTransferencia = foundPlanetToTransfer.terrain;
                     var superficieTransferencia = foundPlanetToTransfer.surface_water;
                     var poblacionTransferencia = foundPlanetToTransfer.population;
@@ -402,8 +402,8 @@ namespace CreatorPlanets
                         ROTATIONPERIOD = rotacionTransferencia,
                         ORBITALPERIOD = orbitaTransferencia,
                         DIAMETERVALUE = diametroTransferencia,
-                        climate = climaTransferencia,
-                        gravity = gravedadTransferencia,
+                        WETTER = climaTransferencia,
+                        GRAVITY = gravedadTransferencia,
                         terrain = terrenoTransferencia,
                         surface_water = superficieTransferencia,
                         population = poblacionTransferencia,
@@ -414,14 +414,10 @@ namespace CreatorPlanets
                         films = filmsTransferencia,
                         id = idTransferencias
                     });
-                    Console.WriteLine("Tu nuevo universo: "); //
+                    Console.WriteLine("Tu nuevo universo: "); 
                     foreach (Properties p in listPlanetsNew)
                     {
-                        Console.Write(p.id + ".- " + p.NAME + " Periodo de rotación: " + p.ROTATIONPERIOD + " Periodo orbital: " + p.ORBITALPERIOD);
-                        Console.Write(" Diámetro: " + p.DIAMETERVALUE + " Clima: " + p.climate + " Gravedad: " + p.gravity + " Terreno: " + p.terrain);
-                        Console.Write(" Superficie del agua: " + p.surface_water + " Población: " + p.population + " Residentes: " + p.residents + " Films:" + p.films);
-                        Console.Write(" Url: " + p.url + " Creado: " + p.created + " Editado: " + p.edited);
-                        Console.WriteLine("\n");
+                        Console.Write(" Tu universo ha sido transferido");
                     }
                     Console.ReadLine();
 
